@@ -1,9 +1,9 @@
-sample1()
-{
+sample1() {
   echo hello1
   return 100
   echo hello2
 }
+
 sample1
 echo exit status of function - $?
 
