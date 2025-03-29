@@ -19,3 +19,5 @@ sample_sum() {
 echo "Addition of $1 and $2 is $(($1+$2))"
 }
 sample_sum 100 200
+
+#Inside the main program all special vars(0-n,*,#) are which passed to the script and not accessible inside functions
